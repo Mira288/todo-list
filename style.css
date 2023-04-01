@@ -1,0 +1,111 @@
+.container
+{
+    width: 40%;
+    height: 700px;
+    border: 1px solid blue;
+    margin-top: 50px;
+    margin-left: 32%;
+    background-color: rgb(115, 115, 231);
+}
+.sous-container
+{
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+a
+{
+    text-decoration: none;
+    color: black; 
+}
+a:hover
+{
+    color: rgb(115, 115, 231);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+#clear
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(115, 115, 231);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(115, 115, 231);
+    border-radius: 5px;
+    margin-left: 55px;
+}
+#ajout
+{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(115, 115, 231);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(115, 115, 231);
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.link
+{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#search
+{
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.separator
+{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 17px;
+}
+.ligne
+{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.element
+{
+    width: 98%;
+    height: 400px;
+    margin-left: 15px;
+}
+.element1
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.options-button
+{
+    width: 15%;
+    height: 20px;
+    border: 1px solid white;
+    margin-left: 228px;
+    font-size: 18px;
+    background-color: white;
+}
+#maListe
+{
+    display: none;
+    /*color: maroon;
+    background-color: white;*/
+}
